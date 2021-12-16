@@ -1,0 +1,85 @@
+
+    header {
+        background-image: url(../Imagens/fundo\ 2.jpg);
+        text-align:center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+   /* areas*/
+
+    section{
+        height: 100%;
+        min-height: 250px;
+        padding: 80px 0;
+    }
+
+    #propaganda1{
+        background-color: orangered;
+        
+    }
+
+    #demostracao{
+        background-color: palegoldenrod;
+       /* padding-top: 50px;
+        padding-bottom: 50px;*/
+    }
+
+    #propaganda2{
+        background-color: orangered;
+        
+    }
+    
+    #demostracao div{
+        float: left;
+        width: 33%;
+        text-align: center;
+
+    } 
+
+    #demostracao div img{
+       width: 100%;
+       padding: 60px;
+    }
+
+    #demostracao div img:hover{
+        border: solid 2px #88888888;
+        padding: 20px;
+        
+    }
+
+    #propaganda1, #propaganda2{
+        padding: 0;
+    }
+
+/* navegação*/
+
+    nav {
+        background-color: white;
+        height: 50px;
+    }
+
+    nav ul{
+
+        display:block;
+        
+    }
+
+    nav ul li{
+        display: inline-block;
+        color: black;
+        line-height: 49px;
+    }
+
+    nav ul li a {
+     color: green;
+     text-decoration: none;
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-top: 16px;
+     padding-bottom: 16px;
+ }
+
+    nav ul li a:hover{
+        Color: white;
+        background-color:green;
+    }
