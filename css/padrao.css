@@ -29,3 +29,80 @@
     max-width: 1280px;
     margin: auto;
 }
+
+.col-1{
+    width: 8.333%;
+}
+
+.col-2{
+    width: 16.666%;
+}
+
+.col-3{
+    width: 24.99%;
+}
+
+.col-4{
+    width: 33.32%;
+}
+
+.col-5{
+     width: 41.665%;
+ }
+
+ .col-6{
+     width: 50%;
+ }
+
+ .col-7{
+     width: 58.331%;
+ }
+
+ .COL-8{
+     width: calc(8.333% * 8);
+ }
+ .col-9{
+     width: calc(8.333% * 9);
+ }
+
+ .col-10{
+     width: calc(8.333% * 10);
+ }
+
+ .col-11{
+     width: calc(8.333% * 11);
+ }
+ .col-12{
+     width: calc(8.333% * 12);
+ }
+
+ [calss*="col-"]{
+     float: left;
+     padding: 10px;
+ }
+
+ .row::after{
+     content:"";
+     clear: both;
+     display: table;
+ }
+
+ .p-1{
+     padding: 10px;
+ }
+
+ .p-2{
+     padding:20px;
+ }
+
+ .p-3{
+     padding: 30px;
+ }
+
+.p-5{
+    padding: 50px;
+}
+
+.respansive{
+    width: 100%;
+}

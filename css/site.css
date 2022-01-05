@@ -19,15 +19,15 @@
     }
 
     #demostracao{
-        background-color: palegoldenrod;
-       /* padding-top: 50px;
-        padding-bottom: 50px;*/
+        background-color: whitesmoke;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
-    #propaganda2{
+   /* #propaganda2{
         background-color: orangered;
         
-    }
+    }*/
     
     #demostracao div{
         float: left;
@@ -36,10 +36,10 @@
 
     } 
 
-    #demostracao div img{
+   /* #demostracao div img{
        width: 100%;
        padding: 60px;
-    }
+    }*/
 
     #demostracao div img:hover{
         border: solid 2px #88888888;
@@ -54,8 +54,9 @@
 /* navegação*/
 
     nav {
-        background-color: white;
-        height: 50px;
+       /* background-color: white;*/
+        height: auto;
+        min-height: 60px;
     }
 
     nav ul{
@@ -66,7 +67,7 @@
 
     nav ul li{
         display: inline-block;
-        color: black;
+       /* color: black;*/
         line-height: 49px;
     }
 
