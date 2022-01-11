@@ -3,6 +3,10 @@
         background-image: url(../Imagens/fundo\ 2.jpg);
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        min-height: 200px;
     }
 
    /* areas*/
@@ -84,3 +88,8 @@
         Color: white;
         background-color:green;
     }
+
+  /*  .logo{
+        position: absolute;
+        top: 20px;
+    }*/
