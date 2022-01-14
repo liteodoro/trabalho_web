@@ -1,6 +1,6 @@
 
     header {
-        background-image: url(../Imagens/fundo\ 2.jpg);
+        background-image: url(../Imagens/fundo\ 1.jpg);
         text-align:center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-position: center;
@@ -22,7 +22,7 @@
         
     }
 
-    #demostracao{
+   #demostracao{
         background-color: whitesmoke;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -33,17 +33,15 @@
         
     }*/
     
-    #demostracao div{
+/*#demostracao div{
         float: left;
-        width: 33%;
-        text-align: center;
 
-    } 
+    } */
 
-   /* #demostracao div img{
+    #demostracao div img{
        width: 100%;
        padding: 60px;
-    }*/
+    }
 
     #demostracao div img:hover{
         border: solid 2px #88888888;
@@ -58,20 +56,21 @@
 /* navegação*/
 
     nav {
-       /* background-color: white;*/
-        height: auto;
-        min-height: 60px;
+    position: sticky;
+    top: 0;
+    height: auto;
+    min-height: 60px;
+    width: 100%;
+    float: left;
     }
 
     nav ul{
 
-        display:block;
-        
+        display:block;   
     }
 
     nav ul li{
         display: inline-block;
-       /* color: black;*/
         line-height: 49px;
     }
 
@@ -89,7 +88,9 @@
         background-color:green;
     }
 
-  /*  .logo{
+  .logo{
         position: absolute;
         top: 20px;
-    }*/
+        left: 20px;
+        z-index: 10;
+    }
