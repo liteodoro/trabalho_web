@@ -76,7 +76,7 @@
      width: calc(8.333% * 12);
  }
 
- [calss*="col-"]{
+ [class*="col-"]{
      float: left;
      padding: 10px;
  }
