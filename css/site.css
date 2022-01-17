@@ -94,3 +94,24 @@
         left: 20px;
         z-index: 10;
     }
+    .produtos{
+        border-radius: 5px;
+        border: solid 1px #888;
+    }
+
+    .produtos input, .produtos button{
+        border-radius: 5px;
+        border: solid 1px #888; 
+        padding: 5px;
+    }
+
+    .produtos img{
+        border-radius: 5px 5px 0 0 ;
+    }
+
+    .produtos-img{
+        min-height: 150px;
+        background-image: url(../Imagens/roupa\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
