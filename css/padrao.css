@@ -1,9 +1,9 @@
-.esquerda{
+.left{
     Float:left;
     text-align: center;
 }   
 
-.direita{
+.right{
     float:left;
     text-align: right;
 }

@@ -55,7 +55,7 @@
 
 /* navegação*/
 
-    nav {
+   /* nav {
     position: sticky;
     top: 0;
     height: auto;
@@ -77,16 +77,28 @@
     nav ul li a {
      color: green;
      text-decoration: none;
-     padding-left: 25px;
+     padding: 15px 25px;
+     /*padding-left: 25px;
      padding-right: 25px;
      padding-top: 16px;
      padding-bottom: 16px;
- }
+ }*/
+    .navbar{
+      padding: 0;
+    }
 
     nav ul li a:hover{
         Color: white;
         background-color:green;
+        border-bottom: solid 5px;
+        font-weight: bold;
+
     }
+    .nav-ligth .navbar-nav .nav-link{
+        color: black !important
+
+    }
+
 
   .logo{
         position: absolute;
@@ -114,4 +126,8 @@
         background-image: url(../Imagens/roupa\ 1.jpg);
         background-position: center;
         background-size: cover;
+    }
+
+    .respansive{
+        width: 100%;
     }
