@@ -87,19 +87,18 @@
       padding: 0;
     }
 
-    nav ul li a:hover{
+    .nav-item a:hover{
         Color: white;
         background-color:green;
-        border-bottom: solid 5px;
+        border-bottom: solid 5px white;
         font-weight: bold;
 
     }
     .nav-ligth .navbar-nav .nav-link{
-        color: black !important
+        color: white !important
 
     }
-
-
+    
   .logo{
         position: absolute;
         top: 20px;
@@ -128,6 +127,8 @@
         background-size: cover;
     }
 
-    .respansive{
+    .responsive{
         width: 100%;
     }
+
+    
