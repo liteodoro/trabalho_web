@@ -44,7 +44,7 @@
     }
 
     #demostracao div img:hover{
-        border: solid 2px #88888888;
+       /* border: solid 2px #88888888;*/
         padding: 20px;
         
     }
@@ -55,7 +55,7 @@
 
 /* navegação*/
 
-    nav {
+   /* nav {
     position: sticky;
     top: 0;
     height: auto;
@@ -77,23 +77,39 @@
     nav ul li a {
      color: green;
      text-decoration: none;
-     padding-left: 25px;
+     padding: 15px 25px;
+     /*padding-left: 25px;
      padding-right: 25px;
      padding-top: 16px;
      padding-bottom: 16px;
- }
-
-    nav ul li a:hover{
-        Color: white;
-        background-color:green;
+ }*/
+    .navbar{
+      padding: 0;
     }
 
+    .nav-item a:hover{
+        Color: white;
+        background-color:green;
+        border-bottom: solid 5px white;
+        font-weight: bold;
+
+    }
+    .nav-ligth .navbar-nav .nav-link{
+        color: white !important
+
+    }
+    
   .logo{
         position: absolute;
         top: 20px;
         left: 20px;
         z-index: 10;
     }
+
+    .logo img{
+        max-height: 200px;
+    }
+
     .produtos{
         border-radius: 5px;
         border: solid 1px #888;
@@ -101,7 +117,7 @@
 
     .produtos input, .produtos button{
         border-radius: 5px;
-        border: solid 1px #888; 
+        border: solid 1px #888;
         padding: 5px;
     }
 
@@ -110,8 +126,37 @@
     }
 
     .produtos-img{
-        min-height: 150px;
-        background-image: url(../Imagens/roupa\ 1.jpg);
+        height: auto;
+        min-height: 250px;
+       /* background-image: url(../Imagens/roupa\ 1.jpg);*/
         background-position: center;
         background-size: cover;
+        font-size: 0.9375em;
+    }
+
+    .vertical{
+        display: table-cell;vertical-align: middle
+    }
+
+    .border-circle{
+        border-radius: 25px;
+    }
+
+    .produtos button{
+       border-radius: 5px;
+       border: solid 1px black;
+       padding: 5px;
+    }
+
+    .responsive{
+        width: 100%;
+    }
+
+    @media screen and (max-width:760px){
+     .fui{display: none;}
+     .logo{
+         width: 100%;
+         text-align: center;
+
+         }
     }
