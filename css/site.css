@@ -49,7 +49,7 @@
         
     }
 
-    #propaganda1, #propaganda2{
+    #propaganda1, #propaganda2, #propaganda3{
         padding: 0;
     }
 
@@ -151,6 +151,20 @@
     .responsive{
         width: 100%;
     }
+
+    .imgBG1, .imgBG2, .imgBG3{
+        background-size: cover;
+        background-position: center;
+        min-height: 350px;
+    }
+
+    .imgBG1 { background-image: url(../imagens/promo.jpg);}
+
+    .imgBG2 { background-image: url(../imagens/promoçãoblackfriday.png);}
+    
+    .imgBG3 { background-image: url(../imagens/acessorios.jpg);}
+    
+
 
     @media screen and (max-width:760px){
      .fui{display: none;}
