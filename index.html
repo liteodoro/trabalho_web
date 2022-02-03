@@ -20,7 +20,11 @@
               
    </head>
     
-       <body>
+       <body id="home">
+         <div class="btnVoltar">
+            <a href="#home"><i class="bi bi-arrow-up-circle"></i></a>
+         </div>
+
            <header>
               <div class="logo">
                 <img src="costela de Adão Modas esse.jpg" alt="Logo marca da loja Costela de Adão Modas."
@@ -47,7 +51,7 @@
               </div>
             </div>
           </nav>-->
-          <nav class="navbar navbar-expand-lg navbar-ligth bg-light">
+          <nav class="navbar navbar-expand-lg sticky-top navbar-ligth bg-light">
             <div class="container">
               <!--a class="navbar-brand" href="#">Navbar</a>-->
               <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,7 +145,7 @@
                     <div class="col-md-3 col-12">
                       <div class="row produtos">
                           <div>
-                             <img src="imagens/roupa.jpg" alt="Produto 1" class="img-fluid">
+                             <img src="imagens/girl-1.jpg" alt="Produto 1" class="img-fluid">
                           </div>
                           <div class="p-1">
                               <h2>Produto 1</h2>
@@ -156,7 +160,11 @@
                             <input type="number" step="1" min="0" max="10" value="0" class="col-12">
                           </div>
                           <div class="col-6">
-                            <button type="button" class="col-12 bg-yellow">Comprar</button>
+                            <div class="">
+                                <a href="produto-detalhe.html" target="_blank">
+                                    <button type="button" class="col-12 bg-yellow">Comprar</button>
+                                </a>
+                            </div>
                           </div>
                       </div>
                    </div>
@@ -306,6 +314,7 @@
                                     <div class="input-group flex-nowrap">
                                       <span class="input-group-text" id="addon-wrapping">Newslatter</span>
                                       <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="addon-wrapping">
+                                      <button type="button" class="btn btn-success form-control">Submit</button>
                                     </div>
                                   </div>
                                 </div>
