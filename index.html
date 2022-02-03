@@ -10,8 +10,11 @@
       <meta http-equiv="X-UA-compatible" content="IE=edge">
          <title>Costela de Adão Modas</title>
            <link rel="icon" type="image/x-icon" href="costela de Adão Modas esse.jpg">
-           <link rel="stylesheet" type="text/css" href="css/reset.css">
-           <link rel="stylesheet" type="text/css" href="css/padrao.css">
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+           <!--link rel="stylesheet" type="text/css" href="css/reset.css">
+           <link rel="stylesheet" type="text/css" href="css/padrao.css">-->
            <link rel="stylesheet" type=" text/css" href="css/site.css">
            <link rel="stylesheet" type=" text/css" href="css/cores.css">
               
@@ -26,104 +29,304 @@
               </div>
            </header>
 
-          <nav class="bg-white respansive">
+          <!--nav class="bg-white respansive">
             <div class="container row">
-                <div class="col-6 esquerda bg-whitesmoke">
-                 
+                <div class="col-6 left bg-whitesmoke">
                    <ul> 
                       <li><a href="logon.html" target="_blank"> Usuário </a></li>
                       <li><a href="Homem.html" target="_blank"> Homem </a></li>
                       <li><a href="mulher.html" target="_blank"> Mulher </a></li>
-
-                  </ul> 
+                   </ul> 
                 </div>
 
-              <div class="col-6 direita bg-whitesmoke">
+              <div class="col-6 right bg-whitesmoke">
                   <ul class="">
                     <li><a href="www.google.com.br" target="_blank"> ----------------Busca </a></li>
                     <li><a href="sacola.html" target="_blank"> Sacola </a></li>
                  </ul>
               </div>
             </div>
+          </nav>-->
+          <nav class="navbar navbar-expand-lg navbar-ligth bg-light">
+            <div class="container">
+              <!--a class="navbar-brand" href="#">Navbar</a>-->
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="logon.html">Usuário</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="mulher.html">Mulher</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="homen.html">Homem</a>
+                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sacola.html"><i class="bi bi-bag-fill"></i></a>
+                  </li>
+                  <!--li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>-->
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
           </nav>
-                
-
-                   <section id="propaganda1" class="container clearfix bg-orangered">
-                      <div>
-
-                      </div>
-                   </section>
-                
-
-                 <section id="demostracao" class="container clearfix bg-whitesmoke">
-
-                    <div class="col-3">
-                       <div class="produtos row">
-
-                         <div>
-                               <div class="produtos-img">
-                                  <!--img src="Imagens/roupa 1.jpg" alt="demostração" class="respansive"> -->
-                               </div>
-                               <div class="p-1">
-                                   <h2>produto 1</h2>
-                               </div>
-                               <div class="p-1">
-                                  <p>Descrição do produto</p>
-                               </div>
-                               <div class="p-1">
-                                   <p>Valor Produto</p>
-                               </div>
-                               <div class="col-6"> 
-                                   <input type="number" step="1" min="0" max="10" value="0" class="respansive">
-                               </div>
-                               <div class="col-6">
-                                    <button type="button" class="respansive bg-yellow">Comprar</button>
-                               </div>
+                  <!--começo propaganda1-->
+                  
+                  <section id="propaganda1" class="container bg-orangered">
+                      <!--div class="row">
+                         <div class="col-8 bg-orangered container">
+                                 
+                                 <div class="row bg-primary">
+                                    <div class="row col-4 container bg-orangered text-center">
+                                           
+                                    </div>
+                                    <div class="col-8 bg-orangered container">
+                                    
+                                    </div>
+                                 </div>
+                         </div>
+                         <div class="row col-4 text-white container p-5">
+                             <p class="fs-4"><u>HEADING</u></p>
+                             <p>Costela de Adão Modas</p>
+                         </div>
+                      </div>-->
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active imgBG1">
+                            <!--img src="imagens/promoção blackf.png" class="d-block w-100" alt="...">-->
                           </div>
+                          <div class="carousel-item imgBG2">
+                            <!--img src="imagens/propaganda roupa.jpg" class="d-block w-100" alt="...">-->
+                          </div>
+                          <div class="carousel-item imgBG3">
+                            <!--img src="imagens/promo.jpg" class="d-block w-100" alt="...">-->
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  </section>
+                     <!--começo dos produtos-->
 
-                       </div>
-                    </div>  
-                    <div class="col-3"> 
-                       <div>
-                           <div>
-                               <img src="Imagens/roupa2.jpg" alt="demostração" class="respansive">
-                           </div>
-                           <div class="">
-                              <h2>Saia</h2>
-                           </div>
-                           <div class="">
-                              <p>Descrição produto</p>
-                           </div>
-                           <div>
-                               <p>Valor produto</p>
-                           </div>
-                           <div class="col-6">
-                               <input type="number" step="1" min="0" max="10" class="respansive">
-                           </div>
-                           <div class="col-6">
-                               <button type="button" class="respansive bg-yellow">Comprar</button>
-                           </div>
+               <section id="demostracao" class="container bg-whitesmoke">
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                      <div class="row produtos">
+                          <div>
+                             <img src="imagens/roupa.jpg" alt="Produto 1" class="img-fluid">
+                          </div>
+                          <div class="p-1">
+                              <h2>Produto 1</h2>
+                          </div>
+                          <div class="p-1">
+                            <p>Descrição produtos</p>
+                          </div>
+                          <div class="p-1">
+                            <p>Valor</p>
+                          </div>
+                          <div class="col-6">
+                            <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                          </div>
+                          <div class="col-6">
+                            <button type="button" class="col-12 bg-yellow">Comprar</button>
+                          </div>
+                      </div>
+                   </div>
+                        
+                    <div class="col-md-3 col-12">
+                      <div class="row produtos ">
+                          <div>
+                              <img src="imagens/roupa 1.jpg" alt="Produto 1" class="img-fluid">
+                          </div>
+                          <div class="p-1">
+                              <h2>Produto 2</h2>
+                          </div>
+                          <div class="p-1">
+                              <p>Descrição produtos</p>
+                          </div>
+                          <div class="p-1">
+                              <p>Valor</p>
+                          </div>
+                          <div class="col-6">
+                              <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                          </div>
+                          <div class="col-6">
+                              <button type="button" class="col-12 bg-yellow">Comprar</button>
+                          </div>
+                      </div>
+                   </div>
+
+                  <div class="col-md-3 col-12">
+                    <div class="row produtos">
+                        <div>
+                            <img src="imagens/roupa 4.jpg" alt="Produto 1" class="img-fluid">
+                        </div>
+                        <div class="p-1">
+                            <h2>Produto 3</h2>
+                        </div>
+                        <div class="p-1">
+                            <p>Descrição produtos</p>
+                        </div>
+                        <div class="p-1">
+                            <p>Valor</p>
+                        </div>
+                        <div class="col-6">
+                            <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="col-12 bg-yellow">Comprar</button>
                         </div>
                     </div>
-
-                    <div class="col-3"> 
-                       <img src="Imagens/roupa.jpg" alt="demostração" class="respansive p-5">
+                 </div>
+                 <div class="col-md-3 col-12">
+                    <div class="row produtos">
+                        <div>
+                            <img src="imagens/roupa2.jpg" alt="Produto 1" class="img-fluid">
+                        </div>
+                        <div class="p-1">
+                            <h2>Produto 4</h2>
+                        </div>
+                        <div class="p-1">
+                            <p>Descrição produtos</p>
+                        </div>
+                        <div class="p-1">
+                            <p>Valor</p>
+                        </div>
+                        <div class="col-6">
+                            <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="col-12 bg-yellow">Comprar</button>
+                        </div>
                     </div>
+                </div>
+              </div>
+            </section>
+                 
+                    <!--começa a propaganda 2>-->
 
-                    <div class="col-3"> 
-                       <img src="Imagens/roupa 6.jpg" alt="demostrção" class="respansive p-5">
+                 <section id="propaganda2" class="container centro bg-grey">
+                  <div class="row">
+                    <div class="col-md-8 col-12 py-2 px-5">
+                        <div class="row produtos p-2 border-circle">
+                            <div class="col-md-4 col-12 text-center">
+                                <img src="imagens/bone.jpg" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-md-8 col-12 pt-4">
+                                <div class="border-bottom border-dark">
+                                    <h2>Promoção de Chapéus</h2>
+                                    <p>Vários chapéus em promoção!!! Venha escolher o seu!!</p>
+                                </div>
+                                <div class="p-2 text-end fs-3">
+                                    <i class="bi bi-star px-1"></i>
+                                    <i class="bi bi-heart px-1"></i>
+                                    <i class="bi bi-emoji-heart-eyes"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-8 col-12 py-2 px-5">
+                      <div class="row produtos p-2 border-circle">
+                          <div class="col-4">
+                              <img src="imagens/sapato2.jpg" class="img-fluid rounded-circle">
+                          </div>
+                          <div class="col-md-8 col-12 pt-4">
+                              <div class="border-bottom border-dark">
+                                  <h2>Promoção de Sapatos</h2>
+                                  <p>Vários Sapatos em promoção!!! Venha escolher o seu!!</p>
+                              </div>
+                              <div class="p-2 text-end fs-3">
+                                  <i class="bi bi-star px-1"></i>
+                                  <i class="bi bi-heart px-1"></i>
+                                  <i class="bi bi-emoji-heart-eyes"></i>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 py-1 fui">
+                        <img src="imagens/propaganda roupa2.jpg" class="img-fluid">
+                      </div>
+                    </div>
+                </section>
 
-                 </section>
-                    
-                 <section id="propaganda2" class="container clearfix centro bg-orangered">
-                    <p> Propaganda </p>
-                    
-                 </section>
+                        <!--propaganda social-->
+
+                <section id="propaganda3" class="container text-center text-white bg-orangered">
+
+                               <h3>Fale Conosco</h3>
+                               <div class="container p-3">
+                                <div class="row">
+                                  <div class="col-md-4 col-12">
+                                    <div class="text-start p-2">
+                                      <i class="bi bi-whatsapp"><p>(21)0000-00000</p></i>
+                                      <p><i class="bi bi-envelope p-1"></i>Sac@costeladeadaomodas.com.br</p>
+                                    </div>
+                                    <div class="text-start fs-3">
+                                      <i class="bi bi-facebook"></i>
+                                      <i class="bi bi-messenger"></i>
+                                      <i class="bi bi-instagram"></i>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 col-12">
+                                    <div>
+                                         <p>Trocas e Devoluções</p>
+                                         <p>Sugestões</p>
+
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 col-12 p-5">
+                                    <div class="input-group flex-nowrap">
+                                      <span class="input-group-text" id="addon-wrapping">Newslatter</span>
+                                      <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="addon-wrapping">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </section>
 
                  <footer class="container centro bg-white">
                         <p> Rodapé </p>
                  </footer>
 
-       </body>
+                 <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+                 </script>
+          
+                 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+                   integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+                 </script>-->
+
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                   integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+                 </script>
+
+        </body>
  </html>

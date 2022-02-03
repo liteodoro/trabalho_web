@@ -28,3 +28,19 @@
 .yellow{
     color: yellow;
 }
+
+.bg-green{
+    background-color: green;
+}
+
+.green{
+    color: green;
+}
+
+.bg-grey{
+    background-color: rgb(230, 224, 224);
+}
+
+.grey{
+    color: rgb(230, 224, 224);
+} 
