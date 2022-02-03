@@ -152,6 +152,24 @@
         width: 100%;
     }
 
+    .btnVoltar {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        font-size: 2em;
+        /* border: solid 3px;
+        border-radius: 50px; */
+    }
+
+    .btnVoltar a {
+        text-decoration: none;
+    }
+
+    a {
+        color: orangered;
+    }
+
     .imgBG1, .imgBG2, .imgBG3{
         background-size: cover;
         background-position: center;
