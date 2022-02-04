@@ -103,11 +103,11 @@
         position: absolute;
         top: 20px;
         left: 20px;
-        z-index: 10;
+        z-index: 10px;
     }
 
     .logo img{
-        max-height: 200px;
+        max-height: 180px;
     }
 
     .produtos{
