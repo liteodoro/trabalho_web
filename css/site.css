@@ -185,6 +185,11 @@
     .imgBG4 { background-image: url(../imagens/girl-1.jpg);}
 
     .imgBG5 { background-image: url(../imagens/hom-fig1.jpg);}
+
+    .size{
+        max-width: 700px;
+        min-height: 700px;
+    }
     
 
 
