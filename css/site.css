@@ -191,7 +191,7 @@
         color: orangered;
     }
 
-    .imgBG1, .imgBG2, .imgBG3{
+    .imgBG1, .imgBG2, .imgBG3, .imgBG4, .imgBG5{
         background-size: cover;
         background-position: center;
         min-height: 350px;
@@ -202,6 +202,10 @@
     .imgBG2 { background-image: url(../imagens/promoçãoblackfriday.png);}
     
     .imgBG3 { background-image: url(../imagens/acessorios.jpg);}
+
+    .imgBG4 { background-image: url(../imagens/girl-1.jpg);}
+
+    .imgBG5 { background-image: url(../imagens/hom-fig1.jpg);}
     
 
 
